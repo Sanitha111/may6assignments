@@ -1,0 +1,13 @@
+S={1:['anitha','female','MPCS','pass'], 2:['sruthi','female','MPCS','pass'],3:['sona','female','MPCS','fail'],4:['suresh','male','MECS','pass'],5:['sonu','male','mccs','pass']}
+x=int(input("enter student no:"))
+print("name of the student:",S[x][0])
+print("gender:",S[x][1])
+print("group:",S[x][2])
+print("result:",S[x][3])
+
+OUTPUT:
+enter student no:1
+name of the student: anitha
+gender: female
+group: MPCS
+result: pass
