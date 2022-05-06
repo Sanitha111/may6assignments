@@ -1,0 +1,13 @@
+S={1:['anitha','manager','1-12-20','25000'], 2:['sruthi','executive officer','2-8-2021','20000'],3:['sona','analyst','2-9-2018','19500'],4:['suresh','pune','3-7-2016','10000'],5:['sonu','director','1-8-2016','50000']}
+x=int(input("enter emp no:"))
+print("name of the emp:",S[x][0])
+print("designation:",S[x][1])
+print("DOJ:",S[x][2])
+print("salary:",S[x][3])
+
+OUTPUT:
+enter emp no:2
+name of the emp: sruthi
+designation: executive officer
+DOJ: 2-8-2021
+salary: 20000
